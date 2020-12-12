@@ -1,0 +1,15 @@
+<html>
+<head>
+	<script src="game-script.js"></script>
+</head>
+<body>
+	<form id="guess" oninput="checkChange()" onchange="checkChange()">
+		<label for="guess_input">Nazwa ulicy: </label>
+		<input type="text" id="guess_input">
+		<button type="button" id="giveup" onclick="giveUp()">Poddaję się</button>
+	</form>
+	<p id="res"></p>
+	<p id="guessList"></p>
+	<p id="notGuessed"></p>
+</body>
+</html>
